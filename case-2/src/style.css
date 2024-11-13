@@ -1,0 +1,345 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Hind', sans-serif;
+
+}
+
+body {
+    background: #EEF3F8;
+    margin: 0;
+    padding: 0;
+ 
+    display: flex; /* Flexbox kullanarak merkezi konumlandırma */
+    justify-content: center; /* Yatayda ortalama */
+    align-items: center; /* Dikeyde ortalama */
+}
+
+.container {
+    width: 1136px;
+    height: 2255px;
+    border-radius: 8px;
+    padding: 22px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+    
+   
+}
+.header{
+    width: 1092px;
+    height: 40px;
+    gap: 12px;
+    justify-content: space-between;
+    display: flex;
+}
+.header h2{
+    font-weight: 600;
+    font-size:25px;
+    color: #FFA300;
+
+}
+.card{
+    width: 1092px;
+    height: 385px;
+    border-radius: 8px;
+    border: 1px solid #E8ECF2;
+    padding: 24px;
+    gap:24px;
+    box-shadow: 0px 0px 12px 0px #53608A1A;
+    color: #FFFFFF;   
+    display: flex;
+
+   
+
+}
+.card-content{
+    width: 540px;
+    height: 337px;
+    display:flex;
+    justify-content: space-between;
+    gap:16px;
+    flex-direction: column;
+
+}
+.header{
+    width: 540px;
+    height: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:16px;
+
+}
+.header h3{
+    font-weight: 600;
+    font-size:25px;
+    color: #486072;
+    width: 456px;
+    height: 35px;
+
+}
+.header span{
+    font-weight: 400;
+    font-size:16px;
+    color: #486072;
+
+}
+.content-text {
+    height: 240px;
+    font-weight: 400;
+    font-size:16px;
+    color:#486072;
+
+    
+  
+ 
+   
+}
+.card-footer{
+    display: flex;
+    justify-content: flex-end;
+  
+  
+}
+.card-footer button{
+   
+    border: none;
+    background: none;
+    font-weight: 600;
+    font-size:16px;
+    color: #486072;
+    display: flex;
+    gap:10px;
+    
+    outline: none;  
+    margin-top:10px; 
+    margin-left:10px;
+    
+}
+.card-footer img{
+    width:24px;
+    height: 24px;
+    margin-top:10px;
+   
+}
+.card-image {
+    width: 480px;        /* Genişlik */
+    height: 337px;       /* Yükseklik */
+    overflow: hidden;    /* İçerideki taşmaları engeller */
+    
+}
+.cards{
+    width: 1092px;
+    height: 380px;
+    display: flex;
+    gap:24px;
+    
+ 
+}
+.cards{
+    width:1092px;
+    height:380px;
+    display:flex;
+    gap:24px;
+}
+.cards-1{
+    width:1092px;
+    height:380px;
+    display:flex;
+    gap:24px;
+}
+.cards-2{
+    width:1092px;
+    height:380px;
+    display:flex;
+    gap:24px;
+}
+.cards-4{
+    width:1092px;
+    height:380px;
+    display:flex;
+    gap:24px;
+}
+.card-container{
+    width: 348px;
+   height:  380px;
+   padding: 24px; 
+   gap: 16px;
+   border-radius: 8px;
+   flex-direction: column;
+   justify-content: space-between;
+   border: 1px solid #E8ECF2;
+   box-shadow: 0px 0px 12px 0px #53608A1A;
+   display:flex;
+
+
+
+}
+.header-1{
+    width:300px;
+    height:30px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-1 h3{
+    width:213px;
+    height:30px;
+    font-weight: 600;
+    font-size:20px;
+     color: #486072;
+
+}
+.header-1 span{
+    width:71px;
+    height:26px;
+    font-weight: 400;
+    font-size:16px;
+    color: #486072;
+
+}
+.content-text-1{
+    width:300px;
+    height:130px;
+    font-weight: 400;
+    font-size:16px;
+    color: #486072;
+
+}
+.card-footer{
+    
+    display:flex;
+    justify-content: flex-end;
+}
+
+.buton {
+    width: 320px;  
+    
+    left: 50%;               
+    transform: translateY(400px);               
+    height: 50px;                   
+    padding: 8px 16px;            
+    gap: 10px;                    
+    border-radius: 8px;            
+    opacity: 0.6;                   
+    background-color: #688090;     
+    color: white;               
+    border: none;                 
+    display: flex;                  
+    justify-content: center;        
+    align-items: center;           
+}
+
+/* Butonun iç kısmı */
+.buton-content {
+    font-size: 16px;               
+    font-weight: 600;              
+    line-height: 30px;            
+    text-align: center;            
+    text-decoration: none;          
+    text-underline-position: from-font;
+    opacity: 1;                    
+    background: transparent;       
+    border: none;                  
+    color: white;                
+    padding: 0;                   
+    cursor: pointer;               
+} 
+
+@media screen and (max-width: 768px) {
+    body{
+        background-color: white;
+        display:flex;
+        min-height: 100vh;   
+        justify-content: center;
+        align-items: center;
+    }
+  
+    .container{
+        
+        
+        padding-top:24px;
+        padding-right:16px;
+        padding-left:16px;
+        padding-bottom:20px;
+        gap: 24px;
+        background-color: #E8ECF2;
+        box-sizing: border-box;
+        
+    }
+    .card{
+        display:none;
+        
+    }
+    .cards, .cards-2, .cards-3 {
+        display: none; /* Mobilde diğer kartları gizle */
+    }
+
+    .cards-1 {
+        flex-direction: column; /* Kartları alt alta sıralamak için */
+        align-items: center; /* Ortalamak için */
+    }
+    
+    
+
+    .cards-1 .card-container:nth-child(3) {
+        display: flex; /* İlk 3 kartı görünür yap */
+        position: relative;
+    }    
+    .buton{
+        position: absolute; /* Son kartın içinde olacak */
+        bottom: -50px; /* Son kartın altına 40px mesafe */
+        background: linear-gradient(93.15deg, #B3C2D4 -17.43%, #173A47 103.97%);
+
+        width:336px;
+        height: 48px;
+        transform: translateX(-160px) translateY(630px);
+        
+        
+        
+    }
+ 
+
+
+    .header {
+        width: 100%;           /* Mobilde genişlik %100 */
+        height: auto;          /* Yüksekliği içeriğe göre ayarlamak */
+        padding: 10px;         /* İçerik etrafına boşluk eklemek */
+        justify-content: center;  /* Flex düzeninde ortalamak */
+        align-items: center;   /* Flex düzeninde dikeyde ortalamak */
+    }
+
+    .header h2 {
+        font-size: 18px;   /* Yazı boyutunu mobilde küçültmek */
+        text-align: center; /* Yazıyı ortalamak */
+        margin: 0;         /* Margin değerini sıfırlamak */
+        margin-right:210px;
+    }
+    header h3{
+        font-size: 20px;
+    }
+    .card-footer{
+        display: flex;
+        gap:4px;
+    }
+    .card-footer button{
+   
+        border: none;
+        background: none;
+        font-weight: 600;
+        font-size:16px;
+        color: #486072;
+        display: flex;
+        gap:10px;
+        
+        outline: none;  
+        margin-top:10px; 
+        margin-left:10px;
+        
+    }
+    .card-footer img{
+        background-color: none;
+    }
+}
+  
